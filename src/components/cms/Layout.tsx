@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import { LayoutDashboard, FileText, FolderOpen, Image, ChevronLeft, Menu, X } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn } from '../../lib/utils';
 
 const CMSLayout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);

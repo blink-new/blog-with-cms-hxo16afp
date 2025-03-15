@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useBlog } from '@/context/BlogContext';
-import { Post, Category } from '@/types';
-import { Button } from '@/components/ui/button';
+import { useBlog } from '../../context/BlogContext';
+import { Post, Category } from '../../types';
+import { Button } from '../../components/ui/button';
 import { Save, Eye, ArrowLeft } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';

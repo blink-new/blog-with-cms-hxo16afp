@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { useBlog } from '@/context/BlogContext';
-import { Post } from '@/types';
+import { useBlog } from '../context/BlogContext';
+import { Post } from '../types';
 import { format } from 'date-fns';
 import { Search, ArrowLeft } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 
 const SearchPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();

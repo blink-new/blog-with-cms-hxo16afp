@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useBlog } from '@/context/BlogContext';
-import { Post, Category } from '@/types';
+import { useBlog } from '../context/BlogContext';
+import { Post, Category } from '../types';
 import { format } from 'date-fns';
 import { ArrowLeft } from 'lucide-react';
 import { motion } from 'framer-motion';

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useBlog } from '@/context/BlogContext';
-import { Post } from '@/types';
+import { useBlog } from '../context/BlogContext';
+import { Post } from '../types';
 import { format } from 'date-fns';
 import { motion } from 'framer-motion';
 

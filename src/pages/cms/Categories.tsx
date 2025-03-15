@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useBlog } from '@/context/BlogContext';
-import { Button } from '@/components/ui/button';
+import { useBlog } from '../../context/BlogContext';
+import { Button } from '../../components/ui/button';
 import { Plus, Edit, Trash, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
